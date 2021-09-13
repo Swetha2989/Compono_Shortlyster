@@ -1,0 +1,15 @@
+{
+    "name": "compono-shortlyster-test",
+    "version": "1.0.0",
+    "dependencies": {
+        "@cucumber/cucumber": "^7.3.1",
+        "@cucumber/pretty-formatter": "^1.0.0-alpha.1",
+        "chai": "^4.3.4",
+        "dotenv": "^10.0.0",
+        "playwright": "^1.14.1"
+    },
+    "scripts": {
+        "test": "cucumber-js -f @cucumber/pretty-formatter -t @Shortlyster .//features/*.feature"
+    },
+    "license": "Compono"
+}
